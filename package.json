@@ -1,11 +1,11 @@
 {
   "name": "mapfile-grammar",
   "author": "Allart Kooiman <allartk@gmail.com>",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Mapserver mapfile grammar",
   "keywords": [
-      "grammar",
-      "mapserver"
+    "grammar",
+    "mapserver"
   ],
   "repository": "https://github.com/allartk/mapfile-grammar",
   "license": "MIT",
