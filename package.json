@@ -1,0 +1,15 @@
+{
+  "name": "mapfile-grammar",
+  "author": "Allart Kooiman <allartk@gmail.com>",
+  "version": "0.0.0",
+  "description": "Mapserver mapfile grammar",
+  "keywords": [
+      "grammar",
+      "mapserver"
+  ],
+  "repository": "https://github.com/atom/mapfile",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  }
+}
