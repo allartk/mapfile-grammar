@@ -2,14 +2,14 @@
   'map'
 ]
 'name': 'Mapfile'
-'foldingStartMarker': '(CLASS|LAYER|LEGEND|MAP|METADATA|OUTPUTFORMAT|PROJECTION|SCALEBAR|STYLE|WEB|LABEL)'
+'foldingStartMarker': '(CLASS|LAYER|LEGEND|MAP|METADATA|OUTPUTFORMAT|PROJECTION|SCALEBAR|STYLE|WEB|LABEL|WEB|COMPOSITE)'
 'foldingStopMarker': 'END'
 'patterns': [
   {
     'include': '#comment'
   }
   {
-      'match': '(CLASS|END|LEGEND|MAP|METADATA|OUTPUTFORMAT|PROJECTION|SCALEBAR|STYLE|WEB|LABEL)[\\s\\]]'
+      'match': '(CLASS|END|LEGEND|MAP|METADATA|OUTPUTFORMAT|PROJECTION|SCALEBAR|STYLE|WEB|LABEL|WEB|COMPOSITE)[\\s\\]]'
       'name': 'keyword.control.mapfile'
   }
   {
