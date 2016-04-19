@@ -2,4 +2,4 @@
   'editor':
     'commentStart': '# '
     'decreaseIndentPattern': '^\\s+*END'
-    'increaseIndentPattern': '(CLASS|LAYER|LEGEND|MAP|METADATA|OUTPUTFORMAT|PROJECTION|SCALEBAR|STYLE|WEB|LABEL|WEB|COMPOSITE)'
+    'increaseIndentPattern': '(CLASS|LAYER|LEGEND|MAP|METADATA|OUTPUTFORMAT|PROJECTION|SCALEBAR|STYLE|WEB|LABEL|WEB|COMPOSITE)\\b'
