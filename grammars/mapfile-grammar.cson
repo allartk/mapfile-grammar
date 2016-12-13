@@ -1,52 +1,52 @@
 'fileTypes': [
-  'map'
+    'map'
 ]
 'name': 'Mapfile'
-'foldingStartMarker': '(CLASS|LAYER|LEGEND|MAP|METADATA|OUTPUTFORMAT|PROJECTION|SCALEBAR|STYLE|WEB|LABEL|WEB|COMPOSITE|SYMBOL)'
+'foldingStartMarker': '(CLASS|LAYER|LEGEND|MAP|METADATA|OUTPUTFORMAT|PROJECTION|SCALEBAR|STYLE|WEB|LABEL|WEB|COMPOSITE)'
 'foldingStopMarker': 'END'
 'patterns': [
-  {
-    'include': '#comment'
-  }
-  {
-      'match': '(END|CLASS|LAYER|LEGEND|MAP|METADATA|OUTPUTFORMAT|PROJECTION|SCALEBAR|STYLE|WEB|LABEL|WEB|COMPOSITE|SYMBOL)[\\s\\]]'
-      'name': 'keyword.control.mapfile'
-  }
-  {
-      'match': '(LAYER)[\\s\\]]'
-      'name': 'keyword.control.mapfile'
-  }
-  {
-    'match': '-?(?=[1-9]|0(?!\\d))\\d+(\\.\\d+)?([eE][+-]?\\d+)?'
-    'name': 'constant.numeric.mapfile'
-  }
-  {
-    'begin': '"'
-    'beginCaptures':
-      '0':
-        'name': 'punctuation.definition.string.begin.mapfile'
-    'end': '"'
-    'endCaptures':
-      '0':
-        'name': 'punctuation.definition.string.end.mapfile'
-    'name': 'string.quoted.double.mapfile'
-  }
-  {
-    'begin': '\''
-    'beginCaptures':
-      '0':
-        'name': 'punctuation.definition.string.begin.mapfile'
-    'end': '\''
-    'endCaptures':
-      '0':
-        'name': 'punctuation.definition.string.end.mapfile'
-    'name': 'string.quoted.single.mapfile'
-  }
+    {
+        'include': '#comment'
+    }
+    {
+        'match': '(END|CLASS|LAYER|LEGEND|MAP|METADATA|OUTPUTFORMAT|PROJECTION|SCALEBAR|STYLE|WEB|LABEL|WEB|COMPOSITE)[\\s\\]]'
+        'name': 'keyword.control.mapfile'
+    }
+    {
+        'match': '(LAYER)[\\s\\]]'
+        'name': 'keyword.control.mapfile'
+    }
+    {
+        'match': '-?(?=[1-9]|0(?!\\d))\\d+(\\.\\d+)?([eE][+-]?\\d+)?'
+        'name': 'constant.numeric.mapfile'
+    }
+    {
+        'begin': '"'
+        'beginCaptures':
+            '0':
+                'name': 'punctuation.definition.string.begin.mapfile'
+        'end': '"'
+        'endCaptures':
+            '0':
+                'name': 'punctuation.definition.string.end.mapfile'
+        'name': 'string.quoted.double.mapfile'
+    }
+    {
+        'begin': '\''
+        'beginCaptures':
+            '0':
+                'name': 'punctuation.definition.string.begin.mapfile'
+        'end': '\''
+        'endCaptures':
+            '0':
+                'name': 'punctuation.definition.string.end.mapfile'
+        'name': 'string.quoted.single.mapfile'
+    }
 ]
 'repository':
-  'comment':
-    'captures':
-      '1':
-        'name': 'comment.line.mapfile'
-    'match': '((#).*$\\n?)'
+    'comment':
+        'captures':
+            '1':
+                'name': 'comment.line.mapfile'
+        'match': '((#).*$\\n?)'
 'scopeName': 'text.mapfile'
